@@ -1,0 +1,83 @@
+/* Add your custom styles here
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.welcome-section {
+    max-width: 600px;
+}
+
+.gallery-section {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+} */
+/* .img-fluid{
+    max-width: 20%;
+    height: auto;
+} */
+body {
+    font-family: 'Arial', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    header {
+        font-size: 14px;
+    }
+
+    .welcome-section {
+        padding: 10px;
+    }
+
+    .schedule-section {
+        margin: 10px 0;
+    }
+}

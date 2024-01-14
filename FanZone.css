@@ -1,0 +1,111 @@
+/* Add your custom styles here */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #973333;
+    color: #fff;
+}*/
+/* .logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+
+.welcome-section {
+    margin-top: 20px;
+}  */
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+} */
+
+/* .nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.welcome-section {
+    max-width: 600px;
+} */
+body {
+    font-family: 'Arial', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.fanzone-section {
+    margin-top: 50px;
+}
+
+.forum-section,
+.polls-section {
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: grey;
+    --bs-btn-active-border-color: grey;
+}
+
+/* .fan-messages {
+    /* Styles for fan messages 
+}
+
+.poll {
+    /* Styles for polls 
+}
+
+Add more styles as needed */

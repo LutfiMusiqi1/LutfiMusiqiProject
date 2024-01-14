@@ -1,0 +1,85 @@
+/* Your existing CSS styles can go here */
+/* .img-fluid{
+    max-width: 20%;
+    height: auto;
+} */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--bs-body-color);
+    --bs-btn-border-color: var(--bs-body-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: grey;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg:var(--bs-body-color);
+    --bs-btn-active-border-color: var(--bs-body-color);
+}
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+/* .welcome-section {
+    max-width: 600px;
+} */
+
+.contact-section {
+    margin-top: 50px;
+}
+
+/* .contact-form {
+    /* Add your styles for the contact form 
+}
+
+.contact-info,
+.social-media-links {
+    /* Add your styles for contact information and social media links 
+} */
+
+/* Add more styles as needed */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .welcome-section {
+        max-width: none;
+    }
+
+    .contact-section {
+        margin-top: 30px;
+    }
+}

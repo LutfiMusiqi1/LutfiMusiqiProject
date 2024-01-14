@@ -1,0 +1,73 @@
+/* Add your custom styles here
+.img-fluid{
+    max-width: 20%;
+    height: auto;
+} */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+.results-section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.filter-options {
+    margin-bottom: 20px;
+}
+
+.results-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-list .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.results-list .card:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    header {
+        font-size: 14px;
+    }
+
+    .welcome-section {
+        padding: 10px;
+    }
+
+    .schedule-section {
+        margin: 10px 0;
+    }
+}

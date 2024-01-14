@@ -1,0 +1,104 @@
+/* Add your custom styles here */
+/* .img-fluid {
+    max-width: 20%;
+    height: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 20px;
+} */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+a{
+    text-decoration: none;
+}
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+.player-profile {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.schedule-section {
+    margin: 20px 0;
+}
+
+.schedule-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule-list li {
+    margin-bottom: 20px;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+    header {
+        font-size: 14px;
+    }
+
+    .welcome-section {
+        padding: 10px;
+    }
+
+    .schedule-section {
+        margin: 10px 0;
+    }
+}

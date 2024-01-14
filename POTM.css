@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+header {
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+
+h3 {
+    color: var(--bs-body-color);
+}
+h2{
+    color: var(--bs-body-color)
+}
+label{
+    color: var(--bs-body-color);
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--bs-body-color);
+    --bs-btn-border-color: var(--bs-body-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: grey;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg:var(--bs-body-color);
+    --bs-btn-active-border-color: var(--bs-body-color);
+}
+.img-fluid{
+    width: 20%;
+    height: auto;
+
+}
+.card{
+    width: fit-content;
+    height: fit-content;
+}
+
+.player-of-the-month-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.current-player {
+    margin-bottom: 20px;
+}
+
+.voting-section {
+    margin-top: 20px;
+}
